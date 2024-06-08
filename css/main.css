@@ -1,0 +1,187 @@
+ @import url('https://fonts.googleapis.com/css?family=Lato|Raleway');
+
+body {
+    background-color: #f2f2f2;
+    font-family: "Lato";
+    font-weight: 300;
+    font-size: 16px;
+    color: #555;
+
+    -webkit-font-smoothing: antialiased;
+    -webkit-overflow-scrolling: touch;
+
+    margin-top: 70px;
+
+    -moz-osx-font-smoothing: grayscale;
+}
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Raleway";
+    font-weight: 400;
+    color: #333;
+}
+
+p {
+    line-height: 28px;
+    margin-bottom: 25px;
+}
+
+.centered {
+    text-align: center;
+}
+
+a {
+    color: #f85c37;
+}
+
+a:hover, a:focus {
+    color: #7b7b7b;
+    text-decoration: none;
+    outline: 0;
+}
+
+.navbar {
+    font-weight: 800;
+    font-size: 14px;
+    padding: 10px 0 10px 0;
+}
+
+.navbar-inverse {
+    background-color: #2d2d2d;
+    border-color: #2d2d2d;
+}
+
+.navbar-inverse .navbar-nav > .active > a {
+    background-color: #ff7878;
+    border-radius: 5px;
+}
+
+.navbar-inverse .navbar-nav > .active > a:hover,
+.navbar-inverse .navbar-nav > .active > a:focus {
+    background-color: #ff5858;
+    border-radius: 5px;
+}
+
+.navbar-inverse .navbar-brand {
+    color: #999;
+    letter-spacing: 1px;
+    font-weight: bolder;
+}
+
+#headwrapper {
+    background: url(../img/skym.jpg) no-repeat center top;
+    margin-top: -10px;
+    padding-top: 20px;
+    background-attachment: relative;
+    background-position: center center;
+    min-height: 500px;
+    width: 100%;
+
+    background-size: 100%;
+
+    -webkit-background-size: cover;
+       -moz-background-size: cover;
+         -o-background-size: cover;
+            background-size: cover;
+}
+
+#headwrapper h1 {
+    margin-top: 50px;
+    font-size: 50px;
+    letter-spacing: 3px;
+}
+
+.info h4 {
+    letter-spacing: 1px;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+.info p {
+    font-size: 18px;
+}
+
+#data-tours {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #e0e0e0;
+}
+
+#data-tours h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+.tilt {
+    -webkit-transition: all 0.5s ease;
+       -moz-transition: all 0.5s ease;
+         -o-transition: all 0.5s ease;
+            transition: all 0.5s ease;
+}
+
+.tilt:hover {
+    -webkit-transform: rotate(-10deg);
+       -moz-transform: rotate(-10deg);
+         -o-transform: rotate(-10deg);
+            transform: rotate(-10deg);
+}
+
+.tilt img {
+    border-radius: 10px;
+
+    -webkit-box-shadow: 0 0 5px #333;
+       -moz-box-shadow: 0 0 5px #333;
+         -o-box-shadow: 0 0 5px #333;
+            box-shadow: 0 0 5px #333;
+}
+
+#about-us {
+    padding-top: 50px;
+}
+
+#about-us h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#about-us p {
+    font-size: 18px;
+}
+
+#about-us img {
+    border-top-left-radius: 50px;
+    border-top-right-radius: 50px;
+}
+
+#brand {
+    padding-top: 50px;
+    padding-bottom: 50px;
+    background: #e0e0e0;
+}
+
+#brand h4 {
+    font-size: 30px;
+    padding-bottom: 20px;
+}
+
+#brand img {
+    height: 100px;
+    width: 100%;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+#footer {
+    padding: 30px 0 20px 0;
+    background: #2d2d2d;
+}
+
+#footer i, #footer span {
+    color: #bdbdbd;
+    /*font-size: 40px;*/
+    padding: 10px;
+}
+
+#footer i:hover {
+    color: #ff7878
+}
